@@ -61,7 +61,7 @@ body {
 }
 
 .featured_header {
-    background-image:url('images/Map\ Header\ Picture.png');
+    /* background-image:url('images/Map\ Header\ Picture.png'); */
     grid-area: featured_header;
     background-size: cover;
 }
@@ -105,7 +105,7 @@ body {
     margin:0 15px 2em 15px;
 }
 
-.footer{
+.home_footer{
     background-color: #53736A;
     color:#024554;
     text-align:center;
