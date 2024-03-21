@@ -1,3 +1,42 @@
+/* :root { 
+    --color-sherpablue: #024554;
+    --color-williamgreen: #53736a;
+    --color-laurelgreen: #6a8c69;
+    --color-celerygreen: #a8b545;
+    --color-ashcream: #c2c0a6;
+    --color-dimgray: #707070;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "museo-slab", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#site_wrap {
+    background-color: white;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns:
+        1fr 
+        repeat(4, minmax(0, 272px)) 
+        1fr;
+    grid-gap: 0px;
+    grid-template-rows:
+        118px 
+        211px 
+        min-content
+        min-content 
+        1fr;
+    grid-template-areas:
+        ". header header header header ."
+        "featured_header featured_header featured_header featured_header featured_header featured_header"
+        ". featured_main featured_main featured_main featured_profile ."
+        ". content content content content ."
+        "footer footer footer footer footer footer"
+}
 .header {
     background-color: white;
     grid-area: header;
@@ -31,11 +70,12 @@
     background-color:#A8B545;
     color:#024554
 }
-.header .nav a{
+.header .nav{
     text-decoration:none;
-    border:2px solid #C2C0A6;
-    border-radius:50em;
-    color:#C2C0A6;
+    border:none;
+    border-radius:1rem;
+    background-color: #C2C0A6;
+    color:#53736a;
     padding:15px 25px;
     margin:0 10px;
     text-transform: uppercase;
@@ -60,7 +100,7 @@
 .btn{
     text-decoration:none;
     background-color:#6A8C69;
-    border:2px solid #6A8C69;
+    border:none;
     border-radius:50em;
     color:white;
     padding:15px 35px;
