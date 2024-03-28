@@ -5,6 +5,66 @@
     align-items:center;
     justify-content:space-between;
 }
+
+.mappic {
+    /* background-image:url('images/Map\ Header\ Picture.png'); */
+    grid-area: featured_header;
+    background-size: cover;
+    max-width: 100vw;
+    width: 100%;
+    height: 200px;
+}
+.header .nav a:hover, .header .nav .active, .btn a:hover {
+    background-color:#A8B545;
+    color:#024554
+}
+.header .nav a {
+    text-decoration:none;
+    border:0px solid #C2C0A6;
+    border-radius:50em;
+    background-color: #c2c0a6;
+    color:#53736A;
+    padding:15px 25px;
+    margin:0 10px;
+    text-transform: uppercase;
+    font-weight:bold;
+    display:inline-block;
+
+}
+
+.container {
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1000px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container> * {
+    max-width: 600px;
+    flex-grow: 1;
+    padding-top: 10px;
+}
+
+.container h1, .container h2, .container p {
+    color:#707070;
+}
+
+
+.btn, .header .nav .btn {
+    text-decoration:none;
+    background-color:#6A8C69;
+    border:0px solid #6A8C69;
+    border-radius:50em;
+    color:white;
+    padding:15px 35px;
+    margin:0 10px;
+    text-transform: uppercase;
+    font-weight:bold;
+    float:right;
+}
+
 .header .logo{
     width:345px;
 }
@@ -15,57 +75,13 @@
 }
 .home_hero{
     display:flex;
-    align-items: center;
-    width:100%;
-  
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-.mappic {
-    /* background-image:url('images/Map\ Header\ Picture.png'); */
-    grid-area: featured_header;
-    background-size: cover;
-    max-width: 100vw;
+
+.home_footer, .home_footer img{
+    color:#024554;
+    text-align:center;
+    grid-area:footer;
     width: 100%;
-    height: 200px;
-}
-.header .nav a:hover, .header .nav .active{
-    background-color:#A8B545;
-    color:#024554
-}
-.header .nav a{
-    text-decoration:none;
-    border:2px solid #C2C0A6;
-    border-radius:50em;
-    color:#C2C0A6;
-    padding:15px 25px;
-    margin:0 10px;
-    text-transform: uppercase;
-    font-weight:bold;
-    display:inline-block;
-}
-
-.container {
-    justify-content: center;
-    width:1000px;
-}
-.container h1{
-    color:#707070;
-}
-.container h2{
-    color:#707070;
-}
-.container p{
-    color:#707070
-}
-
-.btn{
-    text-decoration:none;
-    background-color:#6A8C69;
-    border:2px solid #6A8C69;
-    border-radius:50em;
-    color:white;
-    padding:15px 35px;
-    margin:0 10px;
-    text-transform: uppercase;
-    font-weight:bold;
-    float:right;
 }
