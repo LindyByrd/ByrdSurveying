@@ -45,6 +45,7 @@
     max-width: 600px;
     flex-grow: 1;
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 .container h1, .container h2, .container p {
@@ -79,9 +80,40 @@
     flex-direction: row;
 }
 
-.home_footer, .home_footer img{
-    color:#024554;
+.home_footer, .home_footer img {
+    padding-top: 10px;
+    text-shadow: 3px 0 #024554;
+    color:#DBE1B3;
     text-align:center;
     grid-area:footer;
     width: 100%;
 }
+
+.btm-ctr {
+    position: relative;
+    top: -50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* ABOUT PAGE */
+
+
+.compass, .compass img {
+    max-width: 200px;
+}
+
+.green-container {
+    background-color: #C2D0C1;
+    width: 100%;
+}
+
+.doof, .doof img {
+    margin-left: 10%;
+    max-width: 200px;
+    flex-grow: 1;
+    padding-top: 10px;
+}
+
+
