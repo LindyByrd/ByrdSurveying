@@ -36,7 +36,7 @@
     display:flex;
     flex-wrap: wrap;
     margin: auto;
-    max-width: 1000px;
+    max-width: 1050px;
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -116,4 +116,71 @@
     padding-top: 10px;
 }
 
+.about-team {
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.doof h3 {
+    margin-left: 20%;
+    text-align: center;
+    color: #707070;
+}
+
+
+/* CONTACT US PAGE */
+
+
+.laurel-container {
+    align-items: center;
+    background-color: #6A8C69;
+    width: 500px;
+    height: 650px
+}
+
+.laurel-container img {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.spring-container {
+    background-color: #A0B59F;
+    width: 500px;
+}
+
+.ctr-div {
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.ctr-div h2, .ctr-div p {
+    text-align: center;
+    color: #E6E5DA;
+}
+
+.ctr-div h1{
+    text-align: center;
+    color: #2E2E2E;
+}
+
+.whole-line, .whole-line input {
+    text-align: center;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.half-line, .half-line input {
+    text-align: center;
+    display: inline-block;
+    width: 142px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.whole-line textarea {
+    resize: none;
+}
 

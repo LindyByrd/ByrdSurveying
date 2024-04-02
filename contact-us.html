@@ -4,63 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Byrd Land Surveying</title>
-    <!--<link rel="stylesheet" type="text/css" href="styles.css">
-    -->
+    <link rel="stylesheet" type="text/css" href="css/home.css">
+    <!-- <link rel="stylesheet" href="/css/global.css"> -->
+    <!-- <link rel="stylesheet" href="https://use.typekit.net/kxs6nrg.css"> -->
 </head>
+
 <body>
-    <div>
-        <div>
-            <img src="images/Logo.png" alt="logo">
-            <ul>
+    <div id="site_wrap">
+        <div class="header">
+            <img src="images/Logo.png" class="logo" alt="logo">
+            <ul class="nav">
                 <li><a href="home.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
                 <li><a href="services.html">Services</a></li>
                 <li><a href="history.html">History</a></li>
-                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a  class="active" href="contact-us.html">Contact Us</a></li>
             </ul>
-            <img src="images/Map Header Picture.png">
+        </div>
+        <img src="images/Map Header Picture.png" class="mappic" alt="mappic">
+    </div>
+    <section class="home_hero">
+        <div class="container">
+            <div class="laurel-container">
+                <div>
+                    <img src="images/Logo.png">
+                </div>
+                <div class="ctr-div">
+                    <h2>Call Us</h2>
+                        <p>Office (801)555-4321</p>
+                        <p>Marshall (801)555-1234</p>
+                </div>
+                <div class="ctr-div">
+                    <h2>Email Us</h2>
+                        <p>ByrdLand@Surveying.com</p>
+                </div>
+            </div>
+
+        <div class="spring-container">
+            <div class="ctr-div">
+                <h1>Get a Quote!</h1>
+                <form> 
+                    <div class="whole-line"> Name: <br><input type="text"></div>
+                    <br>
+                    <div class="whole-line">
+                        <div class="half-line"> Email: <br><input type="text"></div>
+                        <div class="half-line"> Phone: <br><input type="text"></div>
+                    </div>
+                    <br>
+                    <div class="whole-line"> Address: <br><input type="text"></div>
+                    <br>
+                    <div class="whole-line">
+                        <div class="half-line"> City: <br><input type="text"></div>
+                        <div class="half-line"> State: <br><input type="text"></div>
+                    </div>
+                    <br>
+                    <div class="whole-line">
+                        <div class="half-line"> Zip / Postal Code: <br><input type="text"></div>
+                        <div class="half-line"> Country: <br><input type="text"></div>
+                    </div>
+                    <br>
+                    <div class="whole-line"> What Type of Survey?: <br><input type="text"></div>
+                    <br>
+                    <div class="whole-line"> Tell us about your project: <br><textarea cols="43" rows="5"></textarea></div>
+                    <br>
+                    <div class="whole-line">
+                        <div class="half-line"> <input type="Submit"></div>
+                        <div class="half-line"> <input type="Reset"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <div class="home_footer">
+        <img src="images/orangemarks.jpg">
+        <div class="btm-ctr">
+            <h2>Byrd Land Surveying 801-555-4321</h2>
         </div>
         
-        <div>
-            <img src="images/Logo.png">
-            <h2>Call Us</h2>
-                <li>Office (801)555-4321</li>
-                <li>Marshall (801)555-1234</li>
-        </div>
-        <div>
-            <h2>Email Us</h2>
-                <li>ByrdLand@Surveying.com</li>
-        </div>
-
-        <div>
-            <form> 
-                Name: <input type="text">
-                <br>
-                Email: <input type="text">
-                <br>
-                Phone: <input type="text">
-                <br>
-                City: <input type="text">
-                <br>
-                State: <input type="text">
-                <br>
-                Zip / Postal Code: <input type="text">
-                <br>
-                Country: <input type="text">
-                <br>
-                What Type of Survey?: <input type="text">
-                <br>
-                Tell us about your project: <input type="text">
-                <br>
-                <input type="Submit">
-                <input type="Reset">
-            </form>
-        </div>
-
-        <div>
-            Byrd Land Surveying 801-555-4321
-        </div>
-        <img src="images/orangemarks.jpg">
     </div>
 </body>
 </html>
