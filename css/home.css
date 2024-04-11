@@ -29,7 +29,6 @@
     text-transform: uppercase;
     font-weight:bold;
     display:inline-block;
-
 }
 
 .container {
@@ -552,4 +551,44 @@
     height: 230px;
     padding-left: 40px;
     margin: auto;
+}
+
+
+
+/* MOBILE */
+
+.menubtn {
+    width: 75px;
+}
+
+.mobile {
+    background-color: #97B3B9;
+    align-items:center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobile a {
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile .nav a:hover, .mobile .nav .active, .btn a:hover {
+    background-color:#A8B545;
+    color:#024554
+}
+
+.mobile .nav a {
+    text-decoration:none;
+    border:0px solid #C2C0A6;
+    border-radius:50em;
+    background-color: #c2c0a6;
+    color:#53736A;
+    padding:15px 25px;
+    text-transform: uppercase;
+    font-weight:bold;
+    display:inline-block;
+
 }

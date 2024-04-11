@@ -2,27 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <title>Byrd Land Surveying</title>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <script type="text/javascript" src="css/home.js"></script>
     <link rel="stylesheet" type="text/css" href="css/home.css">
     <!-- <link rel="stylesheet" href="/css/global.css"> -->
-    <!-- <link rel="stylesheet" href="https://use.typekit.net/kxs6nrg.css"> -->
+    
 </head>
 
-<body>
+<body onresize="winresize();" onload="winresize();">
     <div id="site_wrap">
         <div class="header">
             <img src="images/Logo.png" class="logo" alt="logo">
-            <ul class="nav">
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="history.html">History</a></li>
-                <li><a class="btn" href="contact-us.html">Contact Us</a></li>
-            </ul>
+            <div id="bmenu">
+                <ul class="nav">
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a class="btn" href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
         </div>
-        <img src="images/Map Header Picture.png" class="mappic" alt="mappic">
+        <div id="headerimg">
+            <img src="images/Map Header Picture.png" class="mappic" alt="mappic">
+        </div>
     </div>
     <section class="home_hero">
         <div class="container">
