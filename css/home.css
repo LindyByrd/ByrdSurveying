@@ -361,3 +361,195 @@
     padding-bottom: 15px;
     margin-top: -5px;
 }
+
+.hist-container {
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1050px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.hist-container img {
+    width: 200px;
+}
+
+.paragraph {
+    color: #2e2e2e;
+    width:740px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 20px;
+    font-size: large;
+}
+
+.clark-lewis {
+    background-color: #97B3B9;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 1050px;
+    padding-bottom: 20px;;
+}
+
+.clark-lewis h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    background-color: #5D8891;
+}
+
+.clark-lewisp {
+    color: #2e2e2e;
+    width:550px;
+    margin: auto;
+    font-size: large;
+}
+
+.clark-lewis img {
+    width: 350px;
+    margin: auto;
+}
+
+.george {
+    background-color: #E6E5DA;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 1050px;
+    padding-bottom: 20px;
+}
+
+.george h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    background-color: #C2C0A6;
+}
+
+.georgep {
+    color: #2e2e2e;
+    width: 600px;
+    margin: auto;
+    font-size: large;
+}
+
+.george img {
+    padding-right: 40px;
+    height: 230px;
+    margin: auto;
+}
+
+.thomas {
+    background-color: #A0B59F;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 1050px;
+    padding-bottom: 20px;
+}
+
+.thomas h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    background-color: #6A8C69;
+}
+
+.thomasp {
+    color: #2e2e2e;
+    width: 600px;
+    margin: auto;
+    font-size: large;
+}
+
+.thomas img {
+    height: 230px;
+    padding-left: 40px;
+    margin: auto;
+}
+
+.ben {
+    background-color: #DBE1B3;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 1050px;
+    padding-bottom: 20px;
+}
+
+.ben h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    background-color: #C7D088;
+}
+
+.benp {
+    color: #2e2e2e;
+    width: 600px;
+    margin: auto;
+    font-size: large;
+}
+
+.ben img {
+    height: 230px;
+    padding-right: 40px;
+    margin: auto;
+}
+
+.lincoln {
+    background-color: #B9C5C2;
+    display:flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 20px;
+    width: 1050px;
+    padding-bottom: 20px;
+}
+
+.lincoln h2 {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #2E2E2E;
+    background-color: #91A5A0;
+}
+
+.lincolnp {
+    color: #2e2e2e;
+    width: 600px;
+    margin: auto;
+    font-size: large;
+}
+
+.lincoln img {
+    height: 230px;
+    padding-left: 40px;
+    margin: auto;
+}
