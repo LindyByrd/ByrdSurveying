@@ -19,7 +19,7 @@ function activemenu(menu) {
     }
     if (menu == 2) {
         if (href.substring(href.length-15) == "contact-us.html") var contact = "<a class=\"active\" id=\"mobtn\" href=\"contact-us.html\">Contact Us</a>";
-        else var contact = "<a class=\"btn\" id=\"mobtn\" href=\"contact-us.html\">Contact Us</a>";
+        else var contact = "<a id=\"mobtn\" href=\"contact-us.html\">Contact Us</a>";
     
         return("<div class=\"mobile\"><div class=\"nav\">" + home + about + services + history + contact + "</div></div>");
     }
@@ -30,12 +30,13 @@ function winresize() {
     //alert(w + ' pixels');
     var srv = document.getElementById("services-container");
     var lau = document.getElementById("laurel");
-    if (w < 480) {
+    if (w < 1100) {
         document.getElementById("bmenu").innerHTML = "<input onclick=\"menuopen();\" class=\"menubtn\" type=\"image\" src=\"images/mobilebutton.png\">";
         if (srv) srv.style.paddingLeft = "0px";
         if (lau) lau.style.height = "500px";
     } else {
         document.getElementById("bmenu").innerHTML =  activemenu(1);
+        document.getElementById("headerimg").innerHTML = "<img src=\"images/Map Header Picture.png\" class=\"mappic\" alt=\"mappic\"></img>";
         if (srv) srv.style.paddingLeft = "10%";
         if (lau) lau.style.height = "650px";
     }
